@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
 
-echo "Will run migrations"
-exit 0
+migrations_dir="$1/priv/repo/migrations/"
+
+if [ -d $mix_file_url ];
+then
+  echo "Ecto"
+  exit 0
+else
+  exit 1
+fi
