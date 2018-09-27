@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Will run migrations"
+exit 0
